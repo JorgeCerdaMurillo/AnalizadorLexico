@@ -1,0 +1,46 @@
+import javax.swing.JFrame;
+
+public class  Nombre extends JFrame
+ {
+     int x = 10 ;
+     float y = 77.77 ;
+     String variable = ' Hola ' ;
+
+     public static void main ( String [ ] vars )
+     {
+     clase1 (  ) ;
+     
+     public void clase1 (  String variable )
+     {
+     x = variable . length ( ) - 2 ;
+     y = variable . length ( ) ;
+     int a = x + y ;
+     int b = x - y ;
+     int c = x * y ;
+     int d = x / y ;
+     
+     if (x > y){
+     System . out . print ( x ) ;
+     }
+      if (x < y){
+     System . out . print ( y ) ;
+     }
+     else {
+     for ( int i = 0 ; i <= 3 ; i ++ )
+	 {
+     System . out . print ( " Son iguales " ) ;
+     }
+     int i2 = 3 ; 
+     do
+	 {
+     System . out . print ( " Son iguales " ) ;
+      i2 -- ;
+     } while ( i2 <= 0 );
+ }
+}
+ switch ( a )
+ {
+ case 1 :
+ System . out . print ( " PROBANDO " ) ;
+ break ;
+}
